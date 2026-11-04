@@ -11,7 +11,7 @@
 
 학습 홈에서 자료와 프로젝트를 확인하고, 자료 모아보기에서 일차·유형·검색어로 찾아볼 수 있습니다. 프로젝트 화면은 참여자의 프로젝트 소개와 공개된 결과물 링크를 제공합니다. 교육 일정은 원문에 안내된 6일의 날짜를 표시합니다.
 
-북마크는 현재 브라우저의 localStorage에만 저장됩니다. 별도의 로그인, 서버 DB, 외부 분석 도구는 사용하지 않습니다.
+북마크는 현재 브라우저의 localStorage에만 저장됩니다. 회원가입·로그인·회원정보는 Supabase Auth와 기존 profiles 테이블을 사용합니다. 학습 자료는 기존 JSON 파일로 관리합니다.
 
 ## 자료 수정하기
 
@@ -37,3 +37,17 @@ python -m http.server 8765 --bind 127.0.0.1
 - `dashboard-data.json`: 공개 자료를 정리한 데이터
 
 기존 저장소의 Git 이력을 보존하고 대시보드 화면과 데이터를 개편했습니다. 자료별 원문 링크를 통해 출처를 확인할 수 있습니다.
+
+## 회원 기능
+
+- Supabase 프로젝트: AI-EDU (`orywdthlnofrhhjietls`)
+- 연결 설정: `supabase-config.js` (브라우저용 publishable 키만 포함)
+- 화면: `auth.js`, `auth.css`
+- 공식 SDK: `vendor/supabase.min.js`, @supabase/supabase-js 2.118.0, MIT 라이선스
+- 권한 설정: `supabase-auth.sql` (2026-11-04 적용 및 권한 검증)
+
+회원은 본인 이름과 소속만 수정할 수 있습니다. 역할과 사용자 ID는 브라우저에서 변경할 수 없습니다. 신규 가입 시 기존 DB 트리거가 회원 프로필을 생성합니다. 관리자 회원 조회·계정 처리는 Supabase Dashboard의 Authentication → Users 및 Table Editor → profiles에서 합니다.
+
+메일 발송은 사용하지 않는 구성(`emailEnabled: false`)입니다. 비밀번호 분실 시 운영자에게 문의하도록 안내합니다. 사용자 승인에 따라 Supabase Authentication → Sign In / Providers의 Confirm email을 꺼서 이메일 인증 없이 즉시 가입하도록 설정했습니다. 이메일 소유 여부는 검증되지 않으므로 이메일 자체를 신원 확인의 근거로 사용하지 않습니다.
+
+인증 URL은 `https://jeonwang80.github.io/hd-06/`로 등록합니다. 비밀번호 및 비밀 API 키를 저장소에 넣지 않습니다. 테스트는 실제 회원 생성·메일 발송 없이 화면과 mock SDK 흐름으로 수행합니다.

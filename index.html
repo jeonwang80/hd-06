@@ -12,7 +12,11 @@
   <link rel="canonical" href="https://jeonwang80.github.io/hd-06/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="auth.css">
   <script src="dashboard.js" defer></script>
+  <script src="vendor/supabase.min.js" defer></script>
+  <script src="supabase-config.js" defer></script>
+  <script src="auth.js" defer></script>
   <title>AI WORKSPACE · 학습 홈</title>
 </head>
 <body>
@@ -30,7 +34,7 @@
   <div class="sidebar-divider"></div>
   <div class="sidebar-section-label">빠른 연결 <span>↗</span></div>
   <div id="sidebar-links" class="sidebar-links"></div>
-  <div class="sidebar-bottom"><div class="course-note"><span class="note-spark" aria-hidden="true">✳</span><strong>작은 실습이 만드는<br>새로운 업무 방식</strong><p>자료를 찾고, 아이디어를 연결하고,<br>나만의 프로젝트를 만들어 보세요.</p><a class="source-link" target="_blank" rel="noopener noreferrer">Padlet 원문 열기 <span>↗</span></a></div><div class="workspace-user"><span class="avatar">WJ</span><span>Wang Jeon<small>개인 학습 대시보드</small></span><span class="user-dot" aria-hidden="true"></span></div></div>
+  <div class="sidebar-bottom"><div class="course-note"><span class="note-spark" aria-hidden="true">✳</span><strong>작은 실습이 만드는<br>새로운 업무 방식</strong><p>자료를 찾고, 아이디어를 연결하고,<br>나만의 프로젝트를 만들어 보세요.</p><a class="source-link" target="_blank" rel="noopener noreferrer">Padlet 원문 열기 <span>↗</span></a></div><div class="workspace-user"><span class="avatar" id="account-sidebar-avatar">G</span><span><span id="account-sidebar-name">방문자</span><small id="account-sidebar-label">로그인하여 내 정보 관리</small></span><span class="user-dot" aria-hidden="true"></span></div></div>
 </aside>
 <div class="app-shell">
   <header class="topbar">
@@ -38,7 +42,7 @@
     <div class="breadcrumbs"><span>워크스페이스</span><span class="crumb-separator">/</span><strong id="breadcrumb-current">학습 홈</strong></div>
     <form id="global-search-form" class="global-search" role="search"><span aria-hidden="true">⌕</span><label class="sr-only" for="global-search">전체 학습 자료 검색</label><input id="global-search" type="search" placeholder="어떤 자료를 찾으세요?" autocomplete="off"><button type="submit" aria-label="자료 검색">↵</button></form>
     <div class="today"><span class="today-dot"></span><time id="today-label"></time></div>
-    <span class="header-avatar" aria-label="Wang Jeon">W</span>
+    <button type="button" class="account-button" id="account-button" aria-haspopup="dialog" aria-controls="auth-dialog">로그인</button>
   </header>
   <main id="main" tabindex="-1">
     <div id="loading-state" class="state-panel"><span class="loader" aria-hidden="true"></span><h1>학습 공간을 준비하고 있어요</h1><p>자료와 프로젝트를 불러오는 중입니다.</p></div>
