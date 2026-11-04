@@ -13,10 +13,12 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="dashboard.css">
   <link rel="stylesheet" href="auth.css">
+  <link rel="stylesheet" href="board.css">
   <script src="dashboard.js" defer></script>
   <script src="vendor/supabase.min.js" defer></script>
   <script src="supabase-config.js" defer></script>
   <script src="auth.js" defer></script>
+  <script src="board.js" defer></script>
   <title>AI WORKSPACE · 학습 홈</title>
 </head>
 <body>
@@ -30,6 +32,7 @@
     <a href="#resources" data-view="resources"><span class="nav-symbol" aria-hidden="true">▤</span>자료 모아보기<span class="nav-count" id="nav-resources-count">—</span></a>
     <a href="#projects" data-view="projects"><span class="nav-symbol" aria-hidden="true">▦</span>프로젝트<span class="nav-count" id="nav-projects-count">—</span></a>
     <a href="#schedule" data-view="schedule"><span class="nav-symbol" aria-hidden="true">▣</span>교육 일정</a>
+    <a href="#board" data-view="board"><span class="nav-symbol" aria-hidden="true">☷</span>회원 게시판</a>
   </nav>
   <div class="sidebar-divider"></div>
   <div class="sidebar-section-label">빠른 연결 <span>↗</span></div>
@@ -57,6 +60,14 @@
       <section id="view-resources" class="view" aria-labelledby="resources-title" hidden><div class="page-heading"><div><p class="eyebrow">LEARNING LIBRARY</p><h1 id="resources-title">필요한 자료, 더 쉽게 찾아보세요.</h1><p>교육 일차와 유형별로 살펴보고, 자주 쓰는 자료는 이 기기에 저장하세요.</p></div><a class="outline-link source-link" target="_blank" rel="noopener noreferrer">Padlet 원문 ↗</a></div><div class="filter-panel"><div class="filter-search"><span aria-hidden="true">⌕</span><label class="sr-only" for="resource-search">자료 검색</label><input id="resource-search" type="search" placeholder="자료 제목, 내용, 키워드 검색" autocomplete="off"></div><div class="filter-row"><label class="select-label"><span>교육 일차</span><select id="resource-day"><option value="">전체 일차</option></select></label><label class="select-label"><span>자료 유형</span><select id="resource-category"><option value="">전체 유형</option></select></label><button id="bookmark-filter" class="bookmark-filter" aria-pressed="false">☆ 저장한 자료</button><button id="resource-reset" class="reset-button">필터 초기화</button></div></div><div class="results-heading"><p id="resource-result-count" role="status"></p><span>북마크는 이 기기에만 저장됩니다</span></div><div id="resource-grid" class="resource-grid"></div><div id="resource-empty" class="empty-state" hidden><span>⌕</span><h2>조건에 맞는 자료가 없어요</h2><p>다른 검색어를 입력하거나 필터를 초기화해 보세요.</p><button class="button secondary" id="empty-resource-reset">전체 자료 보기</button></div><div class="section-index"><h2>Padlet 섹션 둘러보기</h2><p>원문의 교육 구성을 기준으로 자료를 확인하세요.</p><div id="section-index-list"></div></div></section>
       <section id="view-projects" class="view" aria-labelledby="projects-title" hidden><div class="page-heading"><div><p class="eyebrow">IDEAS INTO REALITY</p><h1 id="projects-title">각자의 업무에서 시작한, 새로운 가능성.</h1><p>참여자들이 공유한 AI 활용 아이디어와 실무 프로젝트를 만나보세요.</p></div><a class="outline-link source-link" target="_blank" rel="noopener noreferrer">프로젝트 원문 ↗</a></div><div class="project-banner"><div><span class="banner-icon" aria-hidden="true">✳</span><div><strong>함께 만드는 AI 업무 도구</strong><p>프로젝트 아이디어를 연결하고, 나의 업무에 적용할 힌트를 찾아보세요.</p></div></div><span><strong id="project-banner-count">—</strong>개의 프로젝트</span></div><div class="filter-panel project-filter"><div class="filter-search"><span aria-hidden="true">⌕</span><label class="sr-only" for="project-search">프로젝트 검색</label><input id="project-search" type="search" placeholder="프로젝트, 참여자, 키워드 검색" autocomplete="off"></div><label class="select-label"><span>분야</span><select id="project-category"><option value="">전체 분야</option></select></label><button class="reset-button" id="project-reset">초기화</button></div><div class="results-heading"><p id="project-result-count" role="status"></p><span>공유된 프로젝트 소개를 기준으로 정리했습니다</span></div><div id="project-grid" class="project-grid"></div><div id="project-empty" class="empty-state" hidden><span>⌕</span><h2>일치하는 프로젝트가 없어요</h2><p>다른 검색어나 분야를 선택해 보세요.</p></div></section>
       <section id="view-schedule" class="view" aria-labelledby="schedule-title" hidden><div class="page-heading"><div><p class="eyebrow">ONE STEP AT A TIME</p><h1 id="schedule-title">배움을 쌓아가는 6일의 여정.</h1><p id="schedule-range">교육 일정을 확인하고 해당 일차의 자료로 이동하세요.</p></div><span class="days-pill">6 DAYS OF LEARNING</span></div><div class="schedule-intro"><span aria-hidden="true">▣</span><p>교육 참여 방법과 시간 등 상세 안내는 <a class="source-link" target="_blank" rel="noopener noreferrer">Padlet 원문 ↗</a>에서 확인하세요.</p></div><div id="schedule-list" class="schedule-list"></div></section>
+      <section id="view-board" class="view" aria-labelledby="board-title" hidden>
+        <div class="page-heading"><div><p class="eyebrow">MEMBER BOARD</p><h1 id="board-title">질문과 경험을 함께 나누세요.</h1><p>회원끼리 자유롭게 소식을 전하고, 필요한 이야기를 나누는 공간입니다.</p></div><button type="button" id="board-create" class="button primary" hidden>＋ 글쓰기</button></div>
+        <div id="board-gate" class="board-gate"><span aria-hidden="true">☷</span><h2>회원과 함께하는 게시판</h2><p id="board-gate-message">로그인하면 게시글을 읽고 작성할 수 있습니다.</p><button type="button" id="board-login" class="button primary">로그인 / 회원가입</button></div>
+        <div id="board-members" hidden><form id="board-search-form" class="board-search" role="search"><label class="sr-only" for="board-search">게시글 제목 검색</label><input type="search" id="board-search" placeholder="게시글 제목으로 검색" maxlength="120" autocomplete="off"><button type="submit" class="button secondary">검색</button><button type="button" id="board-search-reset" class="reset-button">초기화</button></form>
+          <div class="results-heading"><p id="board-result-count"></p><button type="button" id="board-refresh" class="text-link">새로고침 ↻</button></div><p id="board-status" class="board-status" role="status" aria-live="polite" hidden></p>
+          <div id="board-list" class="board-list"></div><nav class="board-pagination" aria-label="게시판 페이지"><button type="button" id="board-prev" class="button secondary" disabled>← 이전</button><span id="board-page-label"></span><button type="button" id="board-next" class="button secondary" disabled>다음 →</button></nav>
+        </div>
+      </section>
       <footer class="page-footer"><span><strong>AI WORKSPACE</strong> 작은 실습, 새로운 가능성.</span><span id="snapshot-label"></span></footer>
     </div>
   </main>

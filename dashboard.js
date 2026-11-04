@@ -52,7 +52,7 @@ setMenu(false);
 $('menu-button').addEventListener('click',()=>setMenu(!$('sidebar').classList.contains('is-open')));
 $('nav-backdrop').addEventListener('click',()=>{setMenu(false);$('menu-button').focus();});
 document.addEventListener('keydown',e=>{if(e.key==='Tab'&&mobileQuery.matches&&$('sidebar').classList.contains('is-open')){const links=[...$('sidebar').querySelectorAll('a[href],button')].filter(el=>!el.disabled);const first=links[0],last=links.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}if(e.key==='Escape'&&$('sidebar').classList.contains('is-open')){setMenu(false);$('menu-button').focus();}});
-const views={home:'학습 홈',resources:'자료 모아보기',projects:'프로젝트',schedule:'교육 일정'};
+const views={home:'학습 홈',resources:'자료 모아보기',projects:'프로젝트',schedule:'교육 일정',board:'회원 게시판'};
 function route(){const hash=location.hash.slice(1);const view=Object.hasOwn(views,hash)?hash:'home';state.view=view;for(const name of Object.keys(views))$('view-'+name).hidden=name!==view;document.querySelectorAll('[data-view]').forEach(link=>{if(link.dataset.view===view)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});$('breadcrumb-current').textContent=views[view];document.title='AI WORKSPACE · '+views[view];setMenu(false);window.scrollTo({top:0,behavior:'auto'});}
 window.addEventListener('hashchange',route);
 document.querySelector('.skip-link').addEventListener('click',e=>{e.preventDefault();$('main').focus();$('main').scrollIntoView({block:'start'});});
