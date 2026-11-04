@@ -1,0 +1,5477 @@
+{
+  "meta": {
+    "title": "생성형 AI 업무자동화 전문가과정",
+    "subtitle": "2차수 · 학습예시와 실습결과",
+    "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+    "sourceLabel": "Padlet 학습 보드",
+    "snapshotDate": "2026-11-04",
+    "owner": "이애본 (dreamitbiz)",
+    "description": "2026년 11월 4일 Padlet 내보내기 252개 게시물에서 연락처·주차 안내 2개를 제외하고 250개 자료와 14개 프로젝트를 정리한 스냅샷입니다. 게시글의 프롬프트는 요약했으며 첨부파일 내용은 원문에서 확인합니다."
+  },
+  "schedule": [
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "label": "Day 01",
+      "topic": "프롬프트 설계와 업무 자동화 기획",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "label": "Day 02",
+      "topic": "웹페이지 제작·GitHub·NotebookLM 실습",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "label": "Day 03",
+      "topic": "대시보드·Supabase·마크다운 실습",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "day": 4,
+      "date": "2026-11-09",
+      "label": "Day 04",
+      "topic": "Colab·PDF 처리·딥러닝·Solar 챗봇 예시",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "day": 5,
+      "date": "2026-11-12",
+      "label": "Day 05",
+      "topic": "바이브 코딩·업무 자동화 환경 설정",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "day": 6,
+      "date": "2026-11-13",
+      "label": "Day 06",
+      "topic": "챗봇 개발과 웹 개발 참고 예제",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-01",
+      "number": "01",
+      "name": "개발 계획 시뮬레이터",
+      "owner": "정호영",
+      "category": "기획·운영",
+      "summary": "로드맵·부하기준·가용인력 데이터를 연결해 주간 부하와 부족 구간을 계산하고 일정·인원 가정의 전후를 비교합니다.",
+      "tags": [
+        "로드맵",
+        "인력",
+        "시뮬레이션"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-01/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-02",
+      "number": "02",
+      "name": "엑셀·PDF 문서 정리",
+      "owner": "Wang Jeon",
+      "category": "문서·데이터",
+      "summary": "여러 시트·병합셀이 있는 문서의 항목 연결을 확인하고 표로 내보냅니다. 폴더 단위 규칙 분류·추출 기능도 안내되어 있습니다.",
+      "tags": [
+        "엑셀",
+        "PDF",
+        "문서 분류"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-02/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-02/folder.html"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-03",
+      "number": "03",
+      "name": "경쟁사 제원 비교",
+      "owner": "조민규",
+      "category": "설계·분석",
+      "summary": "카탈로그 제원을 표준 항목·단위로 정리하고 모델별 비교표, 그래프와 인양력 비교 결과를 만듭니다.",
+      "tags": [
+        "제원",
+        "단위 환산",
+        "카탈로그"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-03/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-04",
+      "number": "04",
+      "name": "계측 데이터 처리·3D 그래프",
+      "owner": "노현석",
+      "category": "설계·분석",
+      "summary": "계측 파일의 시간축을 맞추고 전처리한 결과와 세 변수의 3D 그래프를 확인하는 도구입니다.",
+      "tags": [
+        "계측",
+        "전처리",
+        "3D"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-04/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-05",
+      "number": "05",
+      "name": "시험 데이터 비교 보고서",
+      "owner": "Hyunwoo Park",
+      "category": "설계·분석",
+      "summary": "차량 시험에서 조건에 맞는 구간과 기준 데이터의 유사 구간을 찾아 정량 비교하고 그래프 보고서를 만듭니다.",
+      "tags": [
+        "시험",
+        "구간 비교",
+        "보고서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-05/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-06",
+      "number": "06",
+      "name": "VPD 운영 업무 보조",
+      "owner": "이정우",
+      "category": "기획·운영",
+      "summary": "현재 공개 도구는 검증 진행 현황과 요청 메일 초안을 정리합니다. 최신 제안에는 Math & Load 공통 데이터 취합·관리·배포로 범위를 변경하려는 요청이 있습니다.",
+      "tags": [
+        "VPD",
+        "일정",
+        "Math & Load"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-06/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-07",
+      "number": "07",
+      "name": "물품설명서·수출입통관 대시보드",
+      "owner": "최창섭",
+      "category": "구매·통관",
+      "summary": "물품설명서 초안 작성에서 통관 실적·FTA·관세환급, 품목분류 결정문과 화물 추적 화면으로 확장한 프로젝트입니다.",
+      "tags": [
+        "통관",
+        "물품설명서",
+        "대시보드"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/tracking.html"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/dashboard.html"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-07/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-07_%EC%B5%9C%EC%B0%BD%EC%84%AD_%EC%88%98%EC%B6%9C%EC%9E%85%ED%86%B5%EA%B4%80%EC%97%85%EB%AC%B4%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.2.docx"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-08",
+      "number": "08",
+      "name": "구매가 절감 실적 집계",
+      "owner": "최상원",
+      "category": "구매·통관",
+      "summary": "발주 실적을 기준·예산 단가와 연결해 절감 실적을 집계하고 업체·담당자·품번의 미매칭 항목을 확인합니다.",
+      "tags": [
+        "구매",
+        "절감 실적",
+        "예산 단가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-08/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-08/budget.html"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-08/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-08_%EC%B5%9C%EC%83%81%EC%9B%90_%EA%B5%AC%EB%A7%A4%EA%B0%80%EC%A0%88%EA%B0%90%EC%8B%A4%EC%A0%81%EC%A7%91%EA%B3%84_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-09",
+      "number": "09",
+      "name": "통신 프로토콜 16진수 해석기",
+      "owner": "차준근",
+      "category": "설계·분석",
+      "summary": "프로토콜 정의와 수신 16진수를 연결해 Byte별 의미와 환산값을 표시하고 범위·길이·기대값을 검증합니다.",
+      "tags": [
+        "16진수",
+        "프로토콜",
+        "검증"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-09/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-10",
+      "number": "10",
+      "name": "주간업무보고 자동 생성",
+      "owner": "김수준",
+      "category": "기획·운영",
+      "summary": "팀원 업무일지와 지난주 보고를 비교해 변경·지연·이슈를 정리하고 네 가지 업무 분야별 금주·차주 보고 초안을 만듭니다.",
+      "tags": [
+        "주간보고",
+        "업무 분류",
+        "일정"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-10/"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-10/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-10_%EA%B9%80%EC%88%98%EC%A4%80_%EC%A3%BC%EA%B0%84%EC%97%85%EB%AC%B4%EB%B3%B4%EA%B3%A0%EC%9E%90%EB%8F%99%EC%83%9D%EC%84%B1_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-11",
+      "number": "11",
+      "name": "설비 비가동 집계·가동률 보고서",
+      "owner": "정한결",
+      "category": "생산·품질",
+      "summary": "작업일보를 바탕으로 설비군별 비가동 사유와 가동률을 집계하고 기록 오류, 파레토와 월간 운영실적을 확인합니다.",
+      "tags": [
+        "설비",
+        "가동률",
+        "비가동"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-11/"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-11/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-11_%EC%A0%95%ED%95%9C%EA%B2%B0_%EC%84%A4%EB%B9%84%EB%B9%84%EA%B0%80%EB%8F%99%EC%A7%91%EA%B3%84%EA%B0%80%EB%8F%99%EB%A5%A0%EB%B3%B4%EA%B3%A0%EC%84%9C_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.2.docx"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-11/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-11_%EC%A0%95%ED%95%9C%EA%B2%B0_%EC%84%A4%EB%B9%84%EB%B9%84%EA%B0%80%EB%8F%99%EC%A7%91%EA%B3%84%EA%B0%80%EB%8F%99%EB%A5%A0%EB%B3%B4%EA%B3%A0%EC%84%9C_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-12",
+      "number": "12",
+      "name": "구매 단가 변동 분석",
+      "owner": "양재현",
+      "category": "구매·통관",
+      "summary": "도면의 재질·치수 정보와 원자재 가격 통합문서를 연결해 소재비 변동의 단가 영향을 분석합니다.",
+      "tags": [
+        "원자재",
+        "원가",
+        "도면"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-12/"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-12/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-12_%EC%96%91%EC%9E%AC%ED%98%84_%EB%8F%84%EB%A9%B4%EA%B8%B0%EB%B0%98%EC%9B%90%EC%86%8C%EC%9E%AC%EB%8B%A8%EA%B0%80%EC%98%81%ED%96%A5%EB%B6%84%EC%84%9D_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-13",
+      "number": "13",
+      "name": "머신러닝 GPR 기반 최적화",
+      "owner": "원광재",
+      "category": "설계·분석",
+      "summary": "실험·해석 데이터로 GPR 모델의 검증 성능을 비교하고 최적 설계조건과 예측 불확실성을 살펴봅니다.",
+      "tags": [
+        "GPR",
+        "최적화",
+        "열유동"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-13/"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "project-14",
+      "number": "14",
+      "name": "협력업체 통합 품질관리",
+      "owner": "정유석",
+      "category": "생산·품질",
+      "summary": "Audit 4종의 점수, 공정점검과 지적사항 개선조치를 연결하고 업체별 추이 및 보고·개선 요청 초안을 관리합니다.",
+      "tags": [
+        "Audit",
+        "품질",
+        "개선조치"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-14/"
+        },
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-14/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-14_%EC%A0%95%EC%9C%A0%EC%84%9D_%ED%98%91%EB%A0%A5%EC%97%85%EC%B2%B4%ED%86%B5%ED%95%A9%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.0.docx"
+        },
+        {
+          "label": "프로젝트 기록은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "post-002",
+      "title": "교육 일정·결과물 공유 안내",
+      "category": "교육 안내",
+      "day": null,
+      "summary": "6일간의 교육 일정과 프로젝트 기획서·중간 결과물·최종 결과물을 모으는 공유 폴더 안내입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "공유 폴더 열기",
+          "url": "https://drive.google.com/drive/folders/1zVa0GsBfoYDr1RlC1fxAtu3t1ihPe7a0?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "post-003",
+      "title": "[필수] 사전평가 응시 안내",
+      "category": "교육 안내",
+      "day": null,
+      "summary": "교육 시작 전 사전 역량평가에 응시하는 학습관리 사이트입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://edu.kocema.com/main/index.jsp"
+        }
+      ]
+    },
+    {
+      "id": "post-004",
+      "title": "사전 역량평가 위치",
+      "category": "교육 안내",
+      "day": null,
+      "summary": "학습관리 사이트에서 마이페이지 → 강의실 입장 → 평가 → 시험 순서로 사전 역량평가를 찾는 안내입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-006",
+      "title": "교육 학습 사이트",
+      "category": "교육 안내",
+      "day": null,
+      "summary": "과정에서 안내한 학습 사이트로 연결합니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://build-data.jobability.co.kr/#/"
+        }
+      ]
+    },
+    {
+      "id": "post-007",
+      "title": "DALL-E 이미지 생성 예시",
+      "category": "학습 자료",
+      "day": 1,
+      "summary": "ChatGPT의 이미지 생성 기능을 다루는 학습 첨부 자료입니다. 세부 내용은 Padlet에서 확인할 수 있습니다.",
+      "tags": [
+        "Day 01"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-008",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 1,
+      "summary": "Day01.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-009",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 1,
+      "summary": "Day01.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-010",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 1,
+      "summary": "Day01.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-011",
+      "title": "Day01 오전 실습 기록·총평",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "8명의 업무 프롬프트를 검토한 강사 총평입니다. 원자재 조사, 제원 비교, 해석·계측, VPD 등 사례에서 출력 형식과 검증 조건을 보완하는 방법을 정리했습니다.",
+      "tags": [
+        "Day 01",
+        "실습"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-012",
+      "title": "LME 알루미늄 시세 분석 프롬프트",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "월평균 알루미늄 가격을 수집하고 시계열 그래프로 정리하는 구매 업무 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "잔디밭별빛"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-013",
+      "title": "미니굴착기 제원 탐색 [82점]",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "3.5톤급 경쟁 모델의 공식 자료를 확인하고 중량·치수를 비교표로 정리하는 실습입니다. 확인되지 않은 값은 비워 두는 조건을 포함합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-014",
+      "title": "이미지 실습 결과 · 원광재",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "Day01.실습결과 · 오전에서 원광재이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-015",
+      "title": "사전 역량 평가·VPD 프로세스 개정",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "개발 프로세스 변경 전후를 비교하고 VPD 영향, 담당자 안내와 회신 취합 보고서를 설계한 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "이정우"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-016",
+      "title": "일상 주제 프롬프트 실습",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "일상 주제로 작성한 프롬프트와 점검 결과를 공유한 게시물입니다. 상세 결과는 첨부에서 확인합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-017",
+      "title": "Heater 글로벌 공급업체 조사",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "제조 역량과 OEM 대응 조건을 기준으로 공급업체 후보를 조사하는 실습입니다. 공식 근거와 확인 불가 항목을 구분하도록 구성했습니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-018",
+      "title": "지게차 계측·해석 상관성 검토 계획",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "Gage Map과 구조해석 결과를 바탕으로 계측 시나리오, 일정, 데이터 처리와 시험·해석 비교 절차를 설계한 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-019",
+      "title": "AI 역할 부여의 효과 비교",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "역할 설정이 답변에 미치는 영향과 효과적인 사용 조건을 사례로 비교하도록 작성한 프롬프트입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "잔잔한샘"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-020",
+      "title": "프롬프트 출력 형식 개선 실습",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "출력 형식 조건을 구체화하며 평가 점수를 개선하는 과정과 첨부 결과를 공유했습니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-021",
+      "title": "팀 주간업무보고서 통합 프롬프트",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "팀원별 금주·차주 업무일지를 모아 지난주 대비 변경과 주요 이슈를 정리하고 분야별 보고서를 만드는 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "주니"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-022",
+      "title": "역세권 아파트 조사·표 구성 실습",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "경기 남부 역세권 아파트를 조건별로 비교하고 근거와 유의사항을 표로 정리하는 프롬프트 작성 사례입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-023",
+      "title": "골프 코스 야디지북 구성 실습",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "18홀 코스 정보와 사진, 확인 가능한 조건을 모아 홀별 안내 자료를 구성하는 프롬프트 사례입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "잔향바람"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-024",
+      "title": "통신 프로토콜 16진수 해석기 설계",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "수신 데이터의 Byte별 의미와 환산식을 적용해 물리값을 표시하는 HTML 도구의 요구사항을 작성했습니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-025",
+      "title": "VPD 반복 업무 자동화 후보 찾기",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "가상검증 운영 업무의 빈도와 소요 시간을 분석하고 현업에서 적용할 자동화 후보를 정리하는 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "이정우"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-026",
+      "title": "이미지 실습 결과 · 정호영",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "Day01.실습결과 · 오후 1에서 정호영이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-027",
+      "title": "내·외자 구매 반복 업무 자동화",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "구매요청, 견적·발주, 납기와 실적 관리에서 규칙이 명확한 반복 업무를 선정하는 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "익명"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-028",
+      "title": "제관품질 업무 자동화 후보",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "5M 변경, 협력업체 Audit, 공정·필드 불량 관리의 반복 작업을 분석하는 품질관리 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "정유석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-029",
+      "title": "총무·경영지원 자동화 설계",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "공장견학 일정, 기념품 재고와 연례행사 자료 취합 업무의 개선 방법을 설계한 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "주니"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-030",
+      "title": "프롬프트 개선 결과 공유",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "프롬프트 평가를 반복하며 작성한 실습 결과를 이미지 첨부로 공유했습니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-031",
+      "title": "이미지 실습 결과 · 정호영",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "Day01.실습결과 · 오후 2에서 정호영이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-032",
+      "title": "양재현·구매 업무 자동화 프롬프트",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "견적 비교, 발주·납기, 원가 관리 등 구매팀의 반복 업무를 줄일 방법을 구체화한 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "양재현"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-033",
+      "title": "엔진 시험·평가 반복 업무 자동화",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "엔진 캘리브레이션과 차량 시험 분석에서 반복 작업을 선정했습니다. 내부망에서 실행하는 프로그램이라는 조건을 포함합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "Hyunwoo Park"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-034",
+      "title": "굴착기 고장코드 진단 자료 구성",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "고장코드 사진과 공식 정비 자료를 근거로 증상·점검 순서·수리 정보를 정리하는 프롬프트 사례입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "소정수"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-035",
+      "title": "이미지 실습 결과 · 정호영",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "Day01.실습결과 · 오후 2에서 정호영이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-036",
+      "title": "비정형 제조 문서 데이터 처리 설계",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "납품서·출하 송장·검사 성적서의 엑셀·PDF·CSV를 분류하고 표준 데이터로 정리하는 자동화 흐름을 설계한 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "Wang Jeon"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-037",
+      "title": "노현석·구조 내구 검증 자동화",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "취약 위치 판별, 계측 계획, 응력 데이터 분석과 보고서 작성을 단기·중기·장기 단계로 나누는 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-038",
+      "title": "총무 업무 프롬프트 자가진단",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "역할, 맥락, 과제, 제약과 출력 형식 관점에서 총무·경영지원 프롬프트를 점검하는 기준을 정리했습니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "주니"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-039",
+      "title": "총무 업무 AI 도입 제안서",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "주간보고, 견적, 견학 관리 사례를 바탕으로 현재 문제와 개선 효과를 경영진 보고자료로 구성하는 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "주니"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-040",
+      "title": "ChatGPT 사내 도입 제안서 프롬프트",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "제조업 부문별 활용 사례와 투자 효과를 정리해 생성형 AI 도입을 설명하는 경영 보고서 작성 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "양재현"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-041",
+      "title": "신입직원용 수출입 업무 지침서",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "수출입 용어와 업무를 쉬운 설명, 약어 풀이와 실무 예시로 정리하는 교육자료 작성 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-042",
+      "title": "구조 내구 검증 AI 도입 제안",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "구조해석·응력 계측·보고서 작성 자동화의 필요성과 적용 업무를 한 장 보고자료로 정리하는 실습입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-043",
+      "title": "로컬 통신 데이터 해석 도구 요구사항",
+      "category": "실습 결과",
+      "day": 1,
+      "summary": "프로토콜 정의에 따라 16진수를 물리값으로 변환하고 근거와 예외를 확인하는 로컬 HTML 도구 설계입니다.",
+      "tags": [
+        "Day 01",
+        "실습",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-044",
+      "title": "매뉴얼 AI Chatbot",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "이미지가 포함된 업무 매뉴얼을 근거로 답변하는 챗봇 기획입니다. OCR·이미지 인식과 제공 자료 범위 내 답변이 주요 요구사항입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-045",
+      "title": "구매 단가 검토 업무 소개",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "견적, 원자재 가격, 환율과 원가 자료를 비교해 단가 변동의 타당성과 협상 근거를 마련하는 업무를 소개했습니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "양재현"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-046",
+      "title": "문서정리기능",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "여러 시트와 병합셀이 있는 엑셀·PDF를 정해진 표 구조에 맞추고 사용자가 항목 연결을 확정하는 문서 정리 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "Wang Jeon"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-047",
+      "title": "건설기계 경쟁사 제원 조사 자동화",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "경쟁 모델의 제원·치수·인양력 자료를 같은 양식과 단위로 정리해 비교하는 도구 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-048",
+      "title": "개발 계획 시뮬레이터 개발",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "개발 로드맵의 일정과 인력 가정을 바꾸며 부문별 업무 부하와 부족 구간을 비교하는 시뮬레이터 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-049",
+      "title": "협력업체 품질관리 업무 기획",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "공정 Audit, 5M 변경과 공정·필드 불량 개선 이력을 체계적으로 관리하려는 업무 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "정유석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-050",
+      "title": "계측 데이터 처리·3D 그래프 기획",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "계측 시간축 정렬과 전처리, 데이터 시각화 및 보고서 생성을 우선 검토하는 구조 내구 검증 업무 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-051",
+      "title": "엔진 시험 데이터 분석·고장 진단 툴 기획",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "차량 시험에서 조건에 맞는 구간을 추출하고 기준 데이터와 정량 비교하는 보고서와 매뉴얼 기반 진단 도구를 제안했습니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "Hyunwoo Park"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-052",
+      "title": "건설기계 제관 생산기술지원",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "용접·가공 공정 개선, 형치구와 설비 관리, 비가동 집계와 생산성 분석 업무를 소개했습니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "정한결"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-053",
+      "title": "VPD 운영 업무 보조 에이전시",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "가상검증의 일정·산출물·참여자·회의 이슈를 모으고 진행 현황 자료를 작성하는 운영 보조 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "이정우"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-054",
+      "title": "물품설명서 작성 자동화",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "수입 부품의 구조·기능·성분·제조공정과 품목분류 의견을 지정 양식에 작성하는 자동화 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "최창섭"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-055",
+      "title": "구매가 절감 실적 자동 집계·분석",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "발주 실적과 기준 단가·품의 정보를 연결해 품번별 절감액 및 변동 사유를 집계하는 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-056",
+      "title": "지게차 원격통신모듈·제어기 데이터 검증",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "수신 16진수와 프로토콜 정의를 대조해 의미와 실제값을 확인하는 반복 검증 업무의 자동화 기획입니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-057",
+      "title": "총무 업무 자동화 프로젝트 3안",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "공장견학 통합 관리, 기념품 재고·불출 관리, 주간업무보고 자동 생성의 세 가지 후보를 제안했습니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "김수준"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-058",
+      "title": "열유동 해석 업무 자동화 후보",
+      "category": "프로젝트 기획",
+      "day": 1,
+      "summary": "CFD 결과의 시간·온도 그래프 통합과 실험 데이터 모델링 등 반복 해석 업무의 자동화 후보를 정리했습니다.",
+      "tags": [
+        "Day 01",
+        "업무 자동화",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-059",
+      "title": "GitHub 가입하기",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "실습 코드와 웹페이지를 관리할 GitHub 계정 준비 안내입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-060",
+      "title": "Visual Studio Code",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "코드 작성과 실습 환경 구성을 위한 편집기 공식 사이트입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://code.visualstudio.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-061",
+      "title": "바이브 코딩 환경 설정",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "교육에서 참고하는 바이브 코딩 개발 환경 준비 자료입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://hufs26.dreamitbiz.com/lecture/setup"
+        }
+      ]
+    },
+    {
+      "id": "post-062",
+      "title": "W3Schools 웹 개발 학습",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "HTML·CSS·JavaScript 등 웹 개발 기초를 찾아볼 수 있는 학습 사이트입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://www.w3schools.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-063",
+      "title": "Chart.js 다중 축 선 그래프 예제",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "차트를 만드는 JavaScript 예시로 여러 축을 사용하는 선 그래프를 살펴봅니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://www.chartjs.org/docs/latest/samples/line/multi-axis.html"
+        }
+      ]
+    },
+    {
+      "id": "post-064",
+      "title": "나의 첫 홈페이지 예제",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "첫 홈페이지를 구현할 때 참고하는 첨부 예제입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-065",
+      "title": "인테리어 홍보 랜딩페이지·ChatGPT 프롬프트",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "인테리어 홍보 페이지 제작을 주제로 한 프롬프트 학습 게시물입니다. 원문은 Padlet에서 확인합니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-066",
+      "title": "부자인테리어 사이트 예제",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "인테리어 업체 홍보용 랜딩페이지의 공개 실습 예시입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/hd-01/"
+        }
+      ]
+    },
+    {
+      "id": "post-067",
+      "title": "부자인테리어 index.html 소스",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "인테리어 홍보 페이지의 HTML 첨부 소스를 안내한 게시물입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-068",
+      "title": "Sample Gallery·웹사이트 디자인 샘플",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "웹페이지 구성과 디자인을 참고할 수 있는 예시 모음입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://sample.dreamitbiz.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-069",
+      "title": "서울아이티고 AI 웹만들기 부트캠프",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "AI를 활용한 웹페이지 제작 학습 사이트입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://seoulit.dreamitbiz.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-070",
+      "title": "NotebookLM",
+      "category": "학습 자료",
+      "day": 2,
+      "summary": "자료 기반 학습과 정리에 사용하는 NotebookLM 도구 소개입니다.",
+      "tags": [
+        "Day 02"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "노트북 열기",
+          "url": "https://notebooklm.google/"
+        }
+      ]
+    },
+    {
+      "id": "post-071",
+      "title": "응력 계측 데이터 분석 프롬프트",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "시나리오·시간·응력 채널로 계측 데이터를 분류하고 해석 결과와 비교하는 실습입니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-072",
+      "title": "공장견학 홈페이지 고정형 Q&A",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "방문객이 정해진 질문을 선택해 신청·변경·준비·안전 안내를 확인하는 FAQ 화면 설계입니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "김수준"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-073",
+      "title": "지게차 생산계획 분석 대시보드",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "업로드한 생산계획 엑셀을 정리하고 생산 추세와 모델별 정보를 시각화하는 웹 도구 설계입니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-074",
+      "title": "프롬프트 평가 결과 공유",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "프롬프트 평가 결과를 첨부 이미지로 공유했습니다. 게시글에는 100점으로 표시되어 있습니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-075",
+      "title": "양재현·도면 기반 원소재 단가 분석 기획",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "도면의 재질·치수와 원자재 Index를 연결해 소재 가격 변동이 제품 단가에 미치는 영향을 계산하는 기획입니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "양재현"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-076",
+      "title": "솔잎나루·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "솔잎나루이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "솔잎나루"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/jaehyenyang-max"
+        }
+      ]
+    },
+    {
+      "id": "post-077",
+      "title": "차준근·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "차준근이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/nokcha1025"
+        }
+      ]
+    },
+    {
+      "id": "post-078",
+      "title": "최상원·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "최상원이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/Yeorapapa/Yeorapapa"
+        }
+      ]
+    },
+    {
+      "id": "post-079",
+      "title": "김수준·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "김수준이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "김수준"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/Sujunkim6580"
+        }
+      ]
+    },
+    {
+      "id": "post-080",
+      "title": "이용건·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "이용건이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "이용건"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/LEE8233"
+        }
+      ]
+    },
+    {
+      "id": "post-081",
+      "title": "원광재·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "원광재이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/wkj0707/wkj0707"
+        }
+      ]
+    },
+    {
+      "id": "post-082",
+      "title": "노현석·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "노현석이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/nhs508336"
+        }
+      ]
+    },
+    {
+      "id": "post-083",
+      "title": "정유석·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "정유석이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "정유석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/dk9918"
+        }
+      ]
+    },
+    {
+      "id": "post-084",
+      "title": "조민규·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "조민규이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/Travis2267"
+        }
+      ]
+    },
+    {
+      "id": "post-085",
+      "title": "Hyunwoo Park·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "Hyunwoo Park이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "Hyunwoo Park"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/patrickparkh"
+        }
+      ]
+    },
+    {
+      "id": "post-086",
+      "title": "이정우·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "이정우이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "이정우"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/GlthAA/GlthAA.git"
+        }
+      ]
+    },
+    {
+      "id": "post-087",
+      "title": "소정수·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "소정수이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "소정수"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/sojungsoo"
+        }
+      ]
+    },
+    {
+      "id": "post-088",
+      "title": "정한결·GitHub",
+      "category": "개발 도구",
+      "day": 2,
+      "summary": "정한결이 실습용으로 공유한 GitHub 계정 또는 저장소 링크입니다.",
+      "tags": [
+        "Day 02",
+        "GitHub",
+        "정한결"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/jhgc016-max"
+        }
+      ]
+    },
+    {
+      "id": "post-089",
+      "title": "한결 라이프·웹페이지 구동 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "제공된 예제를 웹페이지로 실행하는 사이트 모방 실습 자료입니다.",
+      "tags": [
+        "Day 02",
+        "실습"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-090",
+      "title": "한결라이프·index.html 파일",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "한결라이프 예제를 index.html로 준비해 실행하는 첨부 소스입니다.",
+      "tags": [
+        "Day 02",
+        "실습"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-091",
+      "title": "이미지 실습 결과 · 조민규",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "제미나이 노트북 실습에서 조민규이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-092",
+      "title": "이미지 실습 결과 · 최상원",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "제미나이 노트북 실습에서 최상원이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-093",
+      "title": "포켓몬 도감·제미나이 노트북 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "포켓몬 도감 자료를 넣어 만든 노트북 실습 결과를 공유했습니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-094",
+      "title": "이미지 실습 결과 · 이용건",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "제미나이 노트북 실습에서 이용건이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "이용건"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-095",
+      "title": "최창섭·물품설명서 작성 노트북 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "기존 물품설명서를 참고해 제출용 Word 문서를 작성해 본 결과를 공유했습니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "최창섭"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-096",
+      "title": "이미지 실습 결과 · 노현석",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "제미나이 노트북 실습에서 노현석이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-097",
+      "title": "강의 영상 기반 노트북 자료 만들기",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "유튜브 강의 영상을 자료로 사용해 만든 노트북 실습 결과 링크입니다.",
+      "tags": [
+        "Day 02",
+        "NotebookLM",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "노트북 열기",
+          "url": "https://notebook.google.com/notebook/0a078fc6-0f3a-4aff-b36a-aa38e5bebf05/artifact/35111c5b-3869-4375-a16c-46b656174e60"
+        }
+      ]
+    },
+    {
+      "id": "post-098",
+      "title": "최창섭·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "최창섭이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "최창섭"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://solarchoi.github.io/-99/"
+        }
+      ]
+    },
+    {
+      "id": "post-099",
+      "title": "Hyunwoo Park·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "Hyunwoo Park이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "Hyunwoo Park"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://patrickparkh.github.io/Webpage-Clone/"
+        }
+      ]
+    },
+    {
+      "id": "post-100",
+      "title": "이용건·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "이용건이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "이용건"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://lee8233.github.io/lyk8233/"
+        }
+      ]
+    },
+    {
+      "id": "post-101",
+      "title": "정유석·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "정유석이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "정유석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://dk9918.github.io/test---sample/"
+        }
+      ]
+    },
+    {
+      "id": "post-102",
+      "title": "솔잎나루·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "솔잎나루이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "솔잎나루"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://jaehyenyang-max.github.io/jjjpp/"
+        }
+      ]
+    },
+    {
+      "id": "post-103",
+      "title": "노현석·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "노현석이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://nhs508336.github.io/abac/"
+        }
+      ]
+    },
+    {
+      "id": "post-104",
+      "title": "차준근·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "차준근이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/nokcha1025/NEW/tree/main"
+        }
+      ]
+    },
+    {
+      "id": "post-105",
+      "title": "조민규·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "조민규이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://travis2267.github.io/-2/#jobs"
+        }
+      ]
+    },
+    {
+      "id": "post-106",
+      "title": "김수준·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "김수준이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "김수준"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://sujunkim6580.github.io/261103-test/"
+        }
+      ]
+    },
+    {
+      "id": "post-107",
+      "title": "소정수·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "소정수이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "소정수"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://sojungsoo.github.io/sojungsoo1/"
+        }
+      ]
+    },
+    {
+      "id": "post-108",
+      "title": "최상원·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "최상원이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/Yeorapapa/test.git"
+        }
+      ]
+    },
+    {
+      "id": "post-109",
+      "title": "한결 라이프·전왕 실습 결과",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "사이트 모방 실습으로 제작한 한결라이프 웹페이지 링크입니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "wang jeon"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://jeonwang80.github.io/261103-TEST/#jobs"
+        }
+      ]
+    },
+    {
+      "id": "post-110",
+      "title": "원광재·웹페이지 모방 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "원광재이 제작해 공유한 웹페이지 모방 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://wkj0707.github.io/261103-test1/"
+        }
+      ]
+    },
+    {
+      "id": "post-111",
+      "title": "정유석·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "정유석이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "정유석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://dk9918.github.io/rich-sample/"
+        }
+      ]
+    },
+    {
+      "id": "post-112",
+      "title": "이용건·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "이용건이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "이용건"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://lee8233.github.io/leez/"
+        }
+      ]
+    },
+    {
+      "id": "post-113",
+      "title": "wang jeon·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "wang jeon이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "wang jeon"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://jeonwang80.github.io/buja/"
+        }
+      ]
+    },
+    {
+      "id": "post-114",
+      "title": "정한결·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "정한결이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "정한결"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://jhgc016-max.github.io/booja-1/"
+        }
+      ]
+    },
+    {
+      "id": "post-115",
+      "title": "소정수·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "소정수이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "소정수"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://sojungsoo.github.io/sjsbujahouse/"
+        }
+      ]
+    },
+    {
+      "id": "post-116",
+      "title": "최창섭·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "최창섭이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "최창섭"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://solarchoi.github.io/Richhome2/"
+        }
+      ]
+    },
+    {
+      "id": "post-117",
+      "title": "원광재·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "원광재이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://wkj0707.github.io/261103_test3/"
+        }
+      ]
+    },
+    {
+      "id": "post-118",
+      "title": "김수준·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "김수준이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "김수준"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://sujunkim6580.github.io/-test/"
+        }
+      ]
+    },
+    {
+      "id": "post-119",
+      "title": "차준근·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "차준근이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "차준근"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://nokcha1025.github.io/interior/"
+        }
+      ]
+    },
+    {
+      "id": "post-120",
+      "title": "솔잎나루·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "솔잎나루이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "솔잎나루"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://jaehyenyang-max.github.io/sshhoow/"
+        }
+      ]
+    },
+    {
+      "id": "post-121",
+      "title": "조민규·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "조민규이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://travis2267.github.io/-1/"
+        }
+      ]
+    },
+    {
+      "id": "post-122",
+      "title": "노현석·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "노현석이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://nhs508336.github.io/test5/"
+        }
+      ]
+    },
+    {
+      "id": "post-123",
+      "title": "최상원·인테리어 랜딩페이지 실습",
+      "category": "실습 결과",
+      "day": 2,
+      "summary": "최상원이 제작해 공유한 인테리어 랜딩페이지 실습 결과입니다. 공개 웹페이지 또는 코드 저장소에서 확인합니다.",
+      "tags": [
+        "Day 02",
+        "실습",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://yeorapapa.github.io/father-son-interior/"
+        }
+      ]
+    },
+    {
+      "id": "post-124",
+      "title": "Anthropic 무료 AI 강의 모음",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "Claude 활용, AI 기초, 에이전트, MCP와 개발 도구를 다루는 강의 링크 13개를 소개한 게시물입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "강의: claude 101",
+          "url": "https://anthropic.skilljar.com/claude-101"
+        },
+        {
+          "label": "강의: ai fluency framework foundations",
+          "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations"
+        },
+        {
+          "label": "강의: introduction to agent skills",
+          "url": "https://anthropic.skilljar.com/introduction-to-agent-skills"
+        },
+        {
+          "label": "강의: claude with the anthropic api",
+          "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api"
+        },
+        {
+          "label": "강의: claude code in action",
+          "url": "https://anthropic.skilljar.com/claude-code-in-action"
+        },
+        {
+          "label": "강의: introduction to model context protocol",
+          "url": "https://anthropic.skilljar.com/introduction-to-model-context-protocol"
+        },
+        {
+          "label": "강의: mcp advanced topics",
+          "url": "https://anthropic.skilljar.com/mcp-advanced-topics"
+        },
+        {
+          "label": "강의: ai fluency for students",
+          "url": "https://anthropic.skilljar.com/ai-fluency-for-students"
+        },
+        {
+          "label": "강의: ai fluency for educators",
+          "url": "https://anthropic.skilljar.com/ai-fluency-for-educators"
+        },
+        {
+          "label": "강의: teaching ai fluency",
+          "url": "https://anthropic.skilljar.com/teaching-ai-fluency"
+        },
+        {
+          "label": "강의: ai fluency for small businesses",
+          "url": "https://anthropic.skilljar.com/ai-fluency-for-small-businesses"
+        },
+        {
+          "label": "강의: claude with amazon bedrock",
+          "url": "https://anthropic.skilljar.com/claude-with-amazon-bedrock"
+        },
+        {
+          "label": "강의: claude with google cloud vertex ai",
+          "url": "https://anthropic.skilljar.com/claude-with-google-cloud-vertex-ai"
+        }
+      ]
+    },
+    {
+      "id": "post-125",
+      "title": "Supabase·데이터베이스 준비",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "데이터베이스 연동 실습을 위한 Supabase 공식 사이트입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://supabase.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-126",
+      "title": "Academic Pages 웹사이트 템플릿",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "GitHub Pages 기반 사이트 구성을 참고할 수 있는 공개 템플릿 저장소입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/academicpages/academicpages.github.io"
+        }
+      ]
+    },
+    {
+      "id": "post-127",
+      "title": "꼭 기억할 마크다운 형식",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "문서 구조와 표현에 사용하는 Markdown 문법 첨부 자료입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-128",
+      "title": "마크다운 사용법",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "제목·목록 등 Markdown 문서 작성법을 정리한 참고 페이지입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://www.notion.so/aebon/Mark-Down-117252410fc7807c9adacde13f0fe1b1?pvs=4"
+        }
+      ]
+    },
+    {
+      "id": "post-129",
+      "title": "사도출판·코딩 전자책 안내",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "코딩 교육과 관련된 전자책을 소개하고 도서 페이지를 공유한 게시물입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=290999712"
+        }
+      ]
+    },
+    {
+      "id": "post-130",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "Day03.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-131",
+      "title": "대시보드 만들기·예시",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "대시보드 제작을 주제로 한 학습 게시물입니다. 세부 예시는 원문에서 확인합니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-132",
+      "title": "대시보드 예시·GitHub 소스",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "교육용 대시보드 예제의 공개 코드 저장소입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "GitHub에서 보기",
+          "url": "https://github.com/aebonlee/hd-06"
+        }
+      ]
+    },
+    {
+      "id": "post-133",
+      "title": "대시보드 예시·첨부 자료",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "대시보드 제작에 참고하는 첨부 자료입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-134",
+      "title": "Supabase 연결 대시보드 예제",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "데이터베이스를 연결하는 대시보드 학습 게시물입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-135",
+      "title": "Supabase 연결 HTML 소스",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "대시보드와 Supabase 연결 실습에 사용하는 HTML 첨부 소스입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-136",
+      "title": "Supabase SQL 스크립트",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "데이터베이스 실습을 위한 SQL 첨부 스크립트입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-137",
+      "title": "회원가입 상세페이지 디자인하기",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "회원가입 화면의 구성과 디자인을 다루는 실습 게시물입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-138",
+      "title": "회원관리 페이지·채팅 내역",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "회원관리 페이지 제작 과정을 담은 공유 대화 링크입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "공유 자료 열기",
+          "url": "https://chatgpt.com/share/6a7c1252-4460-83e8-9c5c-6b8a63e45540"
+        }
+      ]
+    },
+    {
+      "id": "post-139",
+      "title": "환경변수 설정하기",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "개발 환경에서 설정값을 관리하는 방법을 안내한 첨부 자료입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-140",
+      "title": "환경변수 설정하기 2",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "환경변수 설정의 추가 학습 게시물입니다. 상세 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-141",
+      "title": "Supabase Legacy API Keys 안내",
+      "category": "학습 자료",
+      "day": 3,
+      "summary": "Supabase의 새 키와 Legacy 키 메뉴를 구분해 찾는 방법을 설명한 게시물입니다.",
+      "tags": [
+        "Day 03"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-142",
+      "title": "정호영·대시보드 실습",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "정호영이 공유한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://franxial.github.io/hd-06/"
+        }
+      ]
+    },
+    {
+      "id": "post-143",
+      "title": "양재현·대시보드 실습",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "양재현이 공유한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "양재현"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://jaehyenyang-max.github.io/hd-06/"
+        }
+      ]
+    },
+    {
+      "id": "post-144",
+      "title": "원광재·대시보드 실습",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "원광재이 공유한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://wkj0707.github.io/261104_test5/"
+        }
+      ]
+    },
+    {
+      "id": "post-145",
+      "title": "조민규·대시보드 실습",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "조민규이 공유한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "조민규"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://travis2267.github.io/Model-spec/"
+        }
+      ]
+    },
+    {
+      "id": "post-146",
+      "title": "최상원·대시보드 실습",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "최상원이 공유한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://yeorapapa.github.io/hd-06/"
+        }
+      ]
+    },
+    {
+      "id": "post-147",
+      "title": "최창섭·수출입통관 플랫폼",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "수출입통관 업무를 주제로 제작한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "최창섭"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://solarchoi.github.io/Docdashbord/"
+        }
+      ]
+    },
+    {
+      "id": "post-148",
+      "title": "노현석·대시보드 실습",
+      "category": "실습 결과",
+      "day": 3,
+      "summary": "노현석이 공유한 대시보드 실습 웹페이지입니다.",
+      "tags": [
+        "Day 03",
+        "실습",
+        "노현석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://nhs508336.github.io/dashboard1/"
+        }
+      ]
+    },
+    {
+      "id": "post-149",
+      "title": "Colab·MBTI Gradio 개발 예시",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Colab과 Gradio를 이용해 화면을 만드는 학습 예시 게시물입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-150",
+      "title": "Colab·PDF 문서 처리 예시",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Colab에서 PDF 문서를 처리하는 학습 예시 게시물입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-151",
+      "title": "Colab 실습 노트북",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "교육 실습에 사용하는 공유 Colab 노트북 링크입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Colab 노트북 열기",
+          "url": "https://colab.research.google.com/drive/1GCF127P36bgNAyGtOrGijIq3pkwh1Vnh?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "post-152",
+      "title": "인공지능과 딥러닝 이해",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Teachable Machine 예제로 데이터와 인공지능의 관계를 살펴보는 학습 자료입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://teachablemachine.withgoogle.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-153",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Day04.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-154",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Day04.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-155",
+      "title": "이미지 실습 결과 · 이애본",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Day04.학습예시에서 이애본이 공유한 이미지·첨부 자료입니다. 세부 내용은 원문에서 확인합니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-156",
+      "title": "실전 팁·학습 코칭",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "실습과 학습을 도와주는 코칭 참고 페이지입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://rest.dreamitbiz.com/learning/coaching"
+        }
+      ]
+    },
+    {
+      "id": "post-157",
+      "title": "업스테이지 Solar 소개",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Solar 모델 관련 공식 소개 자료를 공유한 게시물입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://www.upstage.ai/ko/blog/ko/solar-pro-3-0127"
+        }
+      ]
+    },
+    {
+      "id": "post-158",
+      "title": "챗봇 개발·업스테이지 Solar",
+      "category": "학습 자료",
+      "day": 4,
+      "summary": "Solar를 활용한 챗봇 개발 학습 게시물입니다.",
+      "tags": [
+        "Day 04"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-159",
+      "title": "Claude + Word 실습",
+      "category": "실습 결과",
+      "day": 4,
+      "summary": "Claude와 Word 문서 작업을 주제로 한 실습 게시물입니다.",
+      "tags": [
+        "Day 04",
+        "실습"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-160",
+      "title": "바이브 코딩·업무 자동화 환경 설정",
+      "category": "학습 자료",
+      "day": 5,
+      "summary": "바이브 코딩 교육 사이트의 개발 환경 설정 자료를 안내합니다.",
+      "tags": [
+        "Day 05"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://hufs26.dreamitbiz.com/setup"
+        }
+      ]
+    },
+    {
+      "id": "post-161",
+      "title": "사투리 인식 사례",
+      "category": "커뮤니티",
+      "day": null,
+      "summary": "AI의 사투리 인식 사례를 이미지로 공유한 자유게시판 게시물입니다.",
+      "tags": [
+        "정호영"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-162",
+      "title": "웹 개발 학습 예제·hd-04",
+      "category": "학습 자료",
+      "day": 6,
+      "summary": "마지막 교육일에 안내한 공개 웹페이지 예제입니다.",
+      "tags": [
+        "Day 06"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/hd-04/index.html"
+        }
+      ]
+    },
+    {
+      "id": "post-163",
+      "title": "바이브 코딩 부트캠프",
+      "category": "학습 자료",
+      "day": 6,
+      "summary": "웹 개발 실습을 참고할 수 있는 부트캠프 학습 사이트입니다.",
+      "tags": [
+        "Day 06"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://bootcamp.dreamitbiz.com/"
+        }
+      ]
+    },
+    {
+      "id": "post-164",
+      "title": "챗봇 개발",
+      "category": "학습 자료",
+      "day": 6,
+      "summary": "챗봇 개발을 주제로 안내한 학습 게시물입니다.",
+      "tags": [
+        "Day 06"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-165",
+      "title": "Solar API Key 설정 안내",
+      "category": "학습 자료",
+      "day": 6,
+      "summary": "Solar API 연결 설정에 관한 수업 게시물입니다. 관련 안내는 Padlet 원문에서 확인합니다.",
+      "tags": [
+        "Day 06"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-166",
+      "title": "ChatGPT 업무활용 가이드북 3.0",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "업무 활용 사례를 참고하는 가이드북 첨부입니다. 게시글에는 2025년 6월 개편 자료로 안내되어 있습니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-167",
+      "title": "KCA ChatGPT 활용 가이드북",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "ChatGPT 활용법을 참고할 수 있는 가이드북 첨부 자료입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-168",
+      "title": "프롬프트 파인튜닝",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "프롬프트 개선을 주제로 공유한 첨부 학습 자료입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-169",
+      "title": "생성형 AI 활용·첨부 참고 자료",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "제목과 본문이 없는 첨부 참고 자료입니다. 실제 문서 내용은 Padlet에서 확인합니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-170",
+      "title": "한국저작권위원회 참고 자료",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "한국저작권위원회 이름으로 소개된 첨부 참고 자료입니다. 정확한 문서 내용은 원문 첨부에서 확인합니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-171",
+      "title": "ChatGPT·바이브 웹코딩 멘토",
+      "category": "AI 도구",
+      "day": null,
+      "summary": "웹 코딩 학습을 돕는 GPT 링크입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "공유 자료 열기",
+          "url": "https://chatgpt.com/g/g-68b9e6a527948191be7b5c75b5ea3368-baibeu-webkoding-mento"
+        }
+      ]
+    },
+    {
+      "id": "post-172",
+      "title": "생성형 AI 활용 도우미",
+      "category": "AI 도구",
+      "day": null,
+      "summary": "생성형 AI 활용을 돕는 GPT 링크입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "공유 자료 열기",
+          "url": "https://chatgpt.com/g/g-68545eb7ab648191a1602b6d50f9db47-saengseonghyeong-ai-hwalyong-doumi"
+        }
+      ]
+    },
+    {
+      "id": "post-173",
+      "title": "웹 개발 배우기·시작부터 끝까지",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "웹 프로그래밍 학습 내용을 정리한 첨부 참고 자료입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-174",
+      "title": "1Min.ai·다양한 AI 도구 소개",
+      "category": "참고 자료",
+      "day": null,
+      "summary": "여러 AI 기능을 묶은 서비스의 상품 소개 링크입니다. 구매 여부와 현재 제공 조건은 해당 페이지에서 확인합니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "자료 열기",
+          "url": "https://shop.pcworld.com/sales/1minai-pro-plan-lifetime-subscription"
+        }
+      ]
+    },
+    {
+      "id": "post-175",
+      "title": "2차수 프로젝트 총괄",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "생성형 AI 업무자동화 과정의 14개 프로젝트를 모아 놓은 공개 페이지입니다.",
+      "tags": [],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-176",
+      "title": "11-03 점검 · build-2611-01",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "개발 계획 시뮬레이터의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 01",
+        "로드맵",
+        "인력"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-01/"
+        }
+      ]
+    },
+    {
+      "id": "post-177",
+      "title": "build-2611-01 · 개발 계획 시뮬레이터",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "로드맵·부하기준·가용인력 데이터를 연결해 주간 부하와 부족 구간을 계산하고 일정·인원 가정의 전후를 비교합니다.",
+      "tags": [
+        "프로젝트 01",
+        "로드맵",
+        "인력"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-01/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-178",
+      "title": "기획서 v1.0 · 정호영 · 개발 계획 시뮬레이터 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "개발 계획 시뮬레이터의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 01",
+        "로드맵",
+        "인력"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-179",
+      "title": "정호영 · 개발 계획 시뮬레이터",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "개발 계획 시뮬레이터의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 01",
+        "로드맵",
+        "인력"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-180",
+      "title": "11-03 점검 · build-2611-12",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매 단가 변동 분석의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 12",
+        "원자재",
+        "원가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-12/"
+        }
+      ]
+    },
+    {
+      "id": "post-181",
+      "title": "build-2611-12 v1.1·원자재 가격 통합문서",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "여러 시트와 설명 영역을 읽고 규격·재질·단위에 따라 원자재 가격 데이터를 연결하도록 보완한 내용입니다.",
+      "tags": [
+        "프로젝트 12",
+        "원자재",
+        "원가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-12/"
+        }
+      ]
+    },
+    {
+      "id": "post-182",
+      "title": "기획서 v1.1 · 양재현 · 도면 기반 원소재 단가 영향 분석 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매 단가 변동 분석의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 12",
+        "원자재",
+        "원가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-12/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-12_%EC%96%91%EC%9E%AC%ED%98%84_%EB%8F%84%EB%A9%B4%EA%B8%B0%EB%B0%98%EC%9B%90%EC%86%8C%EC%9E%AC%EB%8B%A8%EA%B0%80%EC%98%81%ED%96%A5%EB%B6%84%EC%84%9D_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-183",
+      "title": "build-2611-12 · 도면 기반 원소재 가격 변동 · 단가 영향 분석",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "도면의 재질·치수 정보와 원자재 가격 통합문서를 연결해 소재비 변동의 단가 영향을 분석합니다.",
+      "tags": [
+        "프로젝트 12",
+        "원자재",
+        "원가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-12/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-184",
+      "title": "기획서 v1.0 · 양재현 · 도면 기반 원소재 단가 영향 분석 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매 단가 변동 분석의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 12",
+        "원자재",
+        "원가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-185",
+      "title": "양재현 · 구매 단가 변동 분석",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매 단가 변동 분석의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 12",
+        "원자재",
+        "원가"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-186",
+      "title": "11-03 점검 · build-2611-02",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "엑셀·PDF 문서 정리의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-02/"
+        }
+      ]
+    },
+    {
+      "id": "post-187",
+      "title": "build-2611-02 v1.1·폴더 단위 분류·추출",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "폴더 안의 엑셀·PDF를 규칙으로 분류하고 항목 추출과 확인 필요 결과를 정리하는 확장 기능 안내입니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-02/folder.html"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-02/"
+        }
+      ]
+    },
+    {
+      "id": "post-188",
+      "title": "기획서 v1.1 · Wang Jeon · 폴더 단위 자동 분류 · 추출 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "엑셀·PDF 문서 정리의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-189",
+      "title": "폴더 문서 분류·추출 개선 제안",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "특정 폴더의 문서를 분류하고 조건에 맞는 데이터를 추출해 웹페이지에 보여 주는 흐름을 제안했습니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF",
+        "wang jeon"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-190",
+      "title": "build-2611-02 · 엑셀·PDF 문서 정리",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "여러 시트·병합셀이 있는 문서의 항목 연결을 확인하고 표로 내보냅니다. 폴더 단위 규칙 분류·추출 기능도 안내되어 있습니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-02/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-191",
+      "title": "기획서 v1.0 · Wang Jeon · 엑셀·PDF 문서 정리 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "엑셀·PDF 문서 정리의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-192",
+      "title": "Wang Jeon · 엑셀·PDF 문서 정리",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "엑셀·PDF 문서 정리의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 02",
+        "엑셀",
+        "PDF"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-193",
+      "title": "11-03 점검 · build-2611-03",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "경쟁사 제원 비교의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 03",
+        "제원",
+        "단위 환산"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-03/"
+        }
+      ]
+    },
+    {
+      "id": "post-194",
+      "title": "build-2611-03 · 경쟁사 제원 비교",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "카탈로그 제원을 표준 항목·단위로 정리하고 모델별 비교표, 그래프와 인양력 비교 결과를 만듭니다.",
+      "tags": [
+        "프로젝트 03",
+        "제원",
+        "단위 환산"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-03/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-195",
+      "title": "기획서 v1.0 · 조민규 · 경쟁사 제원 비교 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "경쟁사 제원 비교의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 03",
+        "제원",
+        "단위 환산"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-196",
+      "title": "조민규 · 경쟁사 제원 비교",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "경쟁사 제원 비교의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 03",
+        "제원",
+        "단위 환산"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-197",
+      "title": "11-03 점검 · build-2611-14",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "협력업체 통합 품질관리의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 14",
+        "Audit",
+        "품질"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-14/"
+        }
+      ]
+    },
+    {
+      "id": "post-198",
+      "title": "build-2611-14 · 협력업체 통합 품질관리 시스템",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "Audit 4종의 점수, 공정점검과 지적사항 개선조치를 연결하고 업체별 추이 및 보고·개선 요청 초안을 관리합니다.",
+      "tags": [
+        "프로젝트 14",
+        "Audit",
+        "품질"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-14/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-199",
+      "title": "기획서 v1.0 · 정유석 · 협력업체 통합 품질관리 시스템 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "협력업체 통합 품질관리의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 14",
+        "Audit",
+        "품질"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-14/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-14_%EC%A0%95%EC%9C%A0%EC%84%9D_%ED%98%91%EB%A0%A5%EC%97%85%EC%B2%B4%ED%86%B5%ED%95%A9%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.0.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-200",
+      "title": "협력업체 통합 품질관리 시스템 기획",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "Audit 4종의 이력, 점수와 지적사항의 개선 진행을 한곳에서 관리하는 HTML 시스템 요구사항입니다.",
+      "tags": [
+        "프로젝트 14",
+        "Audit",
+        "품질",
+        "정유석"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-201",
+      "title": "정유석 · 품질 관리 업무",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "협력업체 통합 품질관리의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 14",
+        "Audit",
+        "품질"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-202",
+      "title": "11-03 점검 · build-2611-04",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "계측 데이터 처리·3D 그래프의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 04",
+        "계측",
+        "전처리"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-04/"
+        }
+      ]
+    },
+    {
+      "id": "post-203",
+      "title": "build-2611-04 · 계측 데이터 처리·3D 그래프",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "계측 파일의 시간축을 맞추고 전처리한 결과와 세 변수의 3D 그래프를 확인하는 도구입니다.",
+      "tags": [
+        "프로젝트 04",
+        "계측",
+        "전처리"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-04/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-204",
+      "title": "기획서 v1.0 · 노현석 · 계측 데이터 처리·3D 그래프 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "계측 데이터 처리·3D 그래프의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 04",
+        "계측",
+        "전처리"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-205",
+      "title": "노현석 · 계측 데이터 처리·3D 그래프",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "계측 데이터 처리·3D 그래프의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 04",
+        "계측",
+        "전처리"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-206",
+      "title": "시험 데이터 비교 보고서·첨부 자료",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "Hyunwoo Park이 공유한 프로젝트 첨부 자료입니다. 파일 내용은 Padlet에서 확인합니다.",
+      "tags": [
+        "프로젝트 05",
+        "시험",
+        "구간 비교",
+        "Hyunwoo Park"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-207",
+      "title": "11-03 점검 · build-2611-05",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "시험 데이터 비교 보고서의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 05",
+        "시험",
+        "구간 비교"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-05/"
+        }
+      ]
+    },
+    {
+      "id": "post-208",
+      "title": "build-2611-05 · 시험 데이터 비교 보고서",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "차량 시험에서 조건에 맞는 구간과 기준 데이터의 유사 구간을 찾아 정량 비교하고 그래프 보고서를 만듭니다.",
+      "tags": [
+        "프로젝트 05",
+        "시험",
+        "구간 비교"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-05/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-209",
+      "title": "기획서 v1.0 · Hyunwoo Park · 시험 데이터 비교 보고서 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "시험 데이터 비교 보고서의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 05",
+        "시험",
+        "구간 비교"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-210",
+      "title": "Hyunwoo Park · 시험 데이터 비교 보고서",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "시험 데이터 비교 보고서의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 05",
+        "시험",
+        "구간 비교"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-211",
+      "title": "build-2611-11 v1.2·설비 이름 판정",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "설비 이름으로 가공·용접 설비군을 구분하고 기준 설비 목록을 불러오는 기능의 보완 안내입니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-11/"
+        }
+      ]
+    },
+    {
+      "id": "post-212",
+      "title": "기획서 v1.2 · 정한결 · 설비 비가동 집계 · 가동률 보고서 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "설비 비가동 집계·가동률 보고서의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-11/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-11_%EC%A0%95%ED%95%9C%EA%B2%B0_%EC%84%A4%EB%B9%84%EB%B9%84%EA%B0%80%EB%8F%99%EC%A7%91%EA%B3%84%EA%B0%80%EB%8F%99%EB%A5%A0%EB%B3%B4%EA%B3%A0%EC%84%9C_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.2.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-213",
+      "title": "build-2611-11 v1.1·설비군별 사유 코드",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "설비군마다 다른 비가동 코드를 구분하고 가동률 산정 기준과 사유별 집계를 보완한 내용입니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-11/"
+        }
+      ]
+    },
+    {
+      "id": "post-214",
+      "title": "기획서 v1.1 · 정한결 · 설비 비가동 집계 · 가동률 보고서 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "설비 비가동 집계·가동률 보고서의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-11/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-11_%EC%A0%95%ED%95%9C%EA%B2%B0_%EC%84%A4%EB%B9%84%EB%B9%84%EA%B0%80%EB%8F%99%EC%A7%91%EA%B3%84%EA%B0%80%EB%8F%99%EB%A5%A0%EB%B3%B4%EA%B3%A0%EC%84%9C_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-215",
+      "title": "build-2611-11 · 설비 비가동 집계 · 가동률 보고서",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "작업일보를 바탕으로 설비군별 비가동 사유와 가동률을 집계하고 기록 오류, 파레토와 월간 운영실적을 확인합니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-11/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-216",
+      "title": "기획서 v1.0 · 정한결 · 설비 비가동 집계 · 가동률 보고서 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "설비 비가동 집계·가동률 보고서의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-217",
+      "title": "정한결 · 제관 생산기술 지원",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "설비 비가동 집계·가동률 보고서의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 11",
+        "설비",
+        "가동률"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-218",
+      "title": "11-03 점검 · build-2611-06",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "VPD 운영 업무 보조의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 06",
+        "VPD",
+        "일정"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-06/"
+        }
+      ]
+    },
+    {
+      "id": "post-219",
+      "title": "VPD Math & Load 데이터 관리툴",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "여러 팀이 공통으로 쓰는 Math & Load 데이터를 취합·관리·배포하는 도구로 프로젝트 범위를 바꾸자는 요청입니다.",
+      "tags": [
+        "프로젝트 06",
+        "VPD",
+        "일정",
+        "이정우"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-220",
+      "title": "build-2611-06 · VPD 운영 업무 보조",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "현재 공개 도구는 검증 진행 현황과 요청 메일 초안을 정리합니다. 최신 제안에는 Math & Load 공통 데이터 취합·관리·배포로 범위를 변경하려는 요청이 있습니다.",
+      "tags": [
+        "프로젝트 06",
+        "VPD",
+        "일정"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-06/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-221",
+      "title": "기획서 v1.0 · 이정우 · VPD 운영 업무 보조 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "VPD 운영 업무 보조의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 06",
+        "VPD",
+        "일정"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-222",
+      "title": "이정우 · VPD 운영 업무 보조",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "VPD 운영 업무 보조의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 06",
+        "VPD",
+        "일정"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-223",
+      "title": "build-2611-07 v1.2·물품설명서·화물 추적",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서 6절 구성, 품목분류 결정문 현황과 수입보세화물 추적 화면을 추가한 변경 안내입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/tracking.html"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/dashboard.html"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/"
+        }
+      ]
+    },
+    {
+      "id": "post-224",
+      "title": "기획서 v1.2 · 최창섭 · 수출입통관 업무 대시보드 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서·수출입통관 대시보드의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-07/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-07_%EC%B5%9C%EC%B0%BD%EC%84%AD_%EC%88%98%EC%B6%9C%EC%9E%85%ED%86%B5%EA%B4%80%EC%97%85%EB%AC%B4%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.2.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-225",
+      "title": "11-03 점검 · build-2611-07",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서·수출입통관 대시보드의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/"
+        }
+      ]
+    },
+    {
+      "id": "post-226",
+      "title": "build-2611-07 v1.1·수출입통관 대시보드",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "업로드한 엑셀을 바탕으로 통관 실적, FTA 활용, 관세환급과 오류점수를 모으는 대시보드 안내입니다. 갱신은 파일을 다시 올리는 방식입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/dashboard.html"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/"
+        }
+      ]
+    },
+    {
+      "id": "post-227",
+      "title": "기획서 v1.1 · 최창섭 · 수출입통관 업무 대시보드 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서·수출입통관 대시보드의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-228",
+      "title": "수출입통관 업무 대시보드 기획 v1.0",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "ERP·환급·통관 자료를 이용해 실적과 주요 지표, 물품설명서와 참고자료를 묶는 대시보드 요구사항입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서",
+        "최창섭"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-229",
+      "title": "build-2611-07 · 물품설명서 작성 자동화",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서 초안 작성에서 통관 실적·FTA·관세환급, 품목분류 결정문과 화물 추적 화면으로 확장한 프로젝트입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-07/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-230",
+      "title": "기획서 v1.0 · 최창섭 · 물품설명서 작성 자동화 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서·수출입통관 대시보드의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-231",
+      "title": "최창섭 · 물품설명서 작성 자동화",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "물품설명서·수출입통관 대시보드의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 07",
+        "통관",
+        "물품설명서"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-232",
+      "title": "build-2611-08 v1.1·예산단가 방식",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "발주 실적·협력업체 담당자·예산 단가를 연결하고 집계 제외와 미매칭 항목을 구분하는 절감 실적 화면 안내입니다.",
+      "tags": [
+        "프로젝트 08",
+        "구매",
+        "절감 실적"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-08/budget.html"
+        }
+      ]
+    },
+    {
+      "id": "post-233",
+      "title": "기획서 v1.1 · 최상원 · 구매가 절감 실적 집계 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매가 절감 실적 집계의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 08",
+        "구매",
+        "절감 실적"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-08/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-08_%EC%B5%9C%EC%83%81%EC%9B%90_%EA%B5%AC%EB%A7%A4%EA%B0%80%EC%A0%88%EA%B0%90%EC%8B%A4%EC%A0%81%EC%A7%91%EA%B3%84_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-234",
+      "title": "구매 절감 실적·Excel 자동화 요구사항",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "세 가지 원천 자료를 품번·업체 코드로 연결하고 실적 계산의 근거와 오류 항목을 남기는 업무 요구사항입니다.",
+      "tags": [
+        "프로젝트 08",
+        "구매",
+        "절감 실적",
+        "최상원"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-235",
+      "title": "build-2611-08 · 구매가 절감 실적 집계",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "발주 실적을 기준·예산 단가와 연결해 절감 실적을 집계하고 업체·담당자·품번의 미매칭 항목을 확인합니다.",
+      "tags": [
+        "프로젝트 08",
+        "구매",
+        "절감 실적"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-08/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-236",
+      "title": "기획서 v1.0 · 최상원 · 구매가 절감 실적 집계 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매가 절감 실적 집계의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 08",
+        "구매",
+        "절감 실적"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-237",
+      "title": "최상원 · 구매가 절감 실적 집계",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "구매가 절감 실적 집계의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 08",
+        "구매",
+        "절감 실적"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-238",
+      "title": "11-03 점검 · build-2611-09",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "통신 프로토콜 16진수 해석기의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 09",
+        "16진수",
+        "프로토콜"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-09/"
+        }
+      ]
+    },
+    {
+      "id": "post-239",
+      "title": "build-2611-09 · 통신 프로토콜 16진수 해석기",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "프로토콜 정의와 수신 16진수를 연결해 Byte별 의미와 환산값을 표시하고 범위·길이·기대값을 검증합니다.",
+      "tags": [
+        "프로젝트 09",
+        "16진수",
+        "프로토콜"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-09/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-240",
+      "title": "기획서 v1.0 · 차준근 · 통신 프로토콜 16진수 해석기 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "통신 프로토콜 16진수 해석기의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 09",
+        "16진수",
+        "프로토콜"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-241",
+      "title": "차준근 · 통신 프로토콜 16진수 해석기",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "통신 프로토콜 16진수 해석기의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 09",
+        "16진수",
+        "프로토콜"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-242",
+      "title": "11-03 점검 · build-2611-13",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "머신러닝 GPR 기반 최적화의 배포 화면·예제 실행·자동 검사 결과와 다음 보완 후보를 공유한 강사 점검 기록입니다.",
+      "tags": [
+        "프로젝트 13",
+        "GPR",
+        "최적화"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-13/"
+        }
+      ]
+    },
+    {
+      "id": "post-243",
+      "title": "build-2611-13 · 머신러닝(GPR) 기반 최적화 툴",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "실험·해석 데이터로 GPR 모델의 검증 성능을 비교하고 최적 설계조건과 예측 불확실성을 살펴봅니다.",
+      "tags": [
+        "프로젝트 13",
+        "GPR",
+        "최적화"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-13/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-244",
+      "title": "기획서 v1.0 · 원광재 · 머신러닝(GPR) 기반 최적화 툴 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "머신러닝 GPR 기반 최적화의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 13",
+        "GPR",
+        "최적화"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-245",
+      "title": "머신러닝 기반 최적화 툴 개발",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "GPR 예측 모델의 성능을 비교하고 Grid Search로 최적 설계조건을 탐색하는 개발 기획입니다.",
+      "tags": [
+        "프로젝트 13",
+        "GPR",
+        "최적화",
+        "원광재"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-246",
+      "title": "원광재 · 열유동 해석 업무 자동화",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "머신러닝 GPR 기반 최적화의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 13",
+        "GPR",
+        "최적화"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-247",
+      "title": "build-2611-10 v1.1·분야별 주간보고서",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "주간보고의 최상위 분류를 네 가지 업무 분야로 바꾸고 금주·차주, 변경·지연 이슈를 함께 보여 주도록 개편한 내용입니다.",
+      "tags": [
+        "프로젝트 10",
+        "주간보고",
+        "업무 분류"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-10/"
+        }
+      ]
+    },
+    {
+      "id": "post-248",
+      "title": "기획서 v1.1 · 김수준 · 주간업무보고 자동 생성 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "주간업무보고 자동 생성의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 10",
+        "주간보고",
+        "업무 분류"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "기획서 내려받기",
+          "url": "https://aebonlee.github.io/build-2611-10/docs/%EA%B8%B0%ED%9A%8D%EC%84%9C/build-2611-10_%EA%B9%80%EC%88%98%EC%A4%80_%EC%A3%BC%EA%B0%84%EC%97%85%EB%AC%B4%EB%B3%B4%EA%B3%A0%EC%9E%90%EB%8F%99%EC%83%9D%EC%84%B1_%EA%B8%B0%ED%9A%8D%EC%84%9C_v1.1.docx"
+        }
+      ]
+    },
+    {
+      "id": "post-249",
+      "title": "주간업무보고 웹앱 개편 요구사항",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "팀원별 나열 대신 네 가지 업무 분야를 중심으로 실적·계획·이슈를 파악하는 보고 체계를 제안했습니다.",
+      "tags": [
+        "프로젝트 10",
+        "주간보고",
+        "업무 분류",
+        "김수준"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-250",
+      "title": "build-2611-10 · 주간업무보고 자동 생성",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "팀원 업무일지와 지난주 보고를 비교해 변경·지연·이슈를 정리하고 네 가지 업무 분야별 금주·차주 보고 초안을 만듭니다.",
+      "tags": [
+        "프로젝트 10",
+        "주간보고",
+        "업무 분류"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-10/"
+        },
+        {
+          "label": "웹페이지 열기",
+          "url": "https://aebonlee.github.io/build-2611-00/"
+        }
+      ]
+    },
+    {
+      "id": "post-251",
+      "title": "기획서 v1.0 · 김수준 · 주간업무보고 자동 생성 (워드)",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "주간업무보고 자동 생성의 기능 범위, 처리 흐름과 화면 구성을 정리한 버전별 기획서입니다.",
+      "tags": [
+        "프로젝트 10",
+        "주간보고",
+        "업무 분류"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "첨부파일은 Padlet에서 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    },
+    {
+      "id": "post-252",
+      "title": "김수준 · 주간업무보고 자동 생성",
+      "category": "프로젝트 자료",
+      "day": null,
+      "summary": "주간업무보고 자동 생성의 초기 요구사항과 진행 범위, 단계별 구현 조건을 정리한 게시물입니다.",
+      "tags": [
+        "프로젝트 10",
+        "주간보고",
+        "업무 분류"
+      ],
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "links": [
+        {
+          "label": "Padlet 원문 보기",
+          "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-01",
+      "title": "Informations",
+      "day": null,
+      "category": "교육 안내",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-02",
+      "title": "Day01.학습예시",
+      "day": 1,
+      "category": "학습 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-03",
+      "title": "Day01.실습결과 · 오전",
+      "day": 1,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-04",
+      "title": "Day01.실습결과 · 오후 1",
+      "day": 1,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-05",
+      "title": "Day01.실습결과 · 오후 2",
+      "day": 1,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-06",
+      "title": "Day01.실습결과 · 오후 3",
+      "day": 1,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-07",
+      "title": "Day01.프로젝트 기획",
+      "day": 1,
+      "category": "프로젝트 기획",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-08",
+      "title": "Day02.학습점검",
+      "day": 2,
+      "category": "개발 도구",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-09",
+      "title": "Day02.학습예시",
+      "day": 2,
+      "category": "학습 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-10",
+      "title": "Day02.실습결과 · 오전 1",
+      "day": 2,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-11",
+      "title": "Github 링크 주소 알려주세요",
+      "day": 2,
+      "category": "개발 도구",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-12",
+      "title": "한결라이프 - 사이트 모방하기 실습",
+      "day": 2,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-13",
+      "title": "제미나이 노트북 실습",
+      "day": 2,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-14",
+      "title": "Day02.실습결과 · 오후 1",
+      "day": 2,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-15",
+      "title": "Day02.실습결과 · 오후 2",
+      "day": 2,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-16",
+      "title": "Day03.학습예시",
+      "day": 3,
+      "category": "학습 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-17",
+      "title": "Day03.실습결과 · 오전 1",
+      "day": 3,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-18",
+      "title": "Day04.학습예시",
+      "day": 4,
+      "category": "학습 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-19",
+      "title": "Day04.실습결과 · 오전 1",
+      "day": 4,
+      "category": "실습 결과",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-20",
+      "title": "Day05.학습예시",
+      "day": 5,
+      "category": "학습 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-21",
+      "title": "자유게시판",
+      "day": null,
+      "category": "커뮤니티",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-22",
+      "title": "Day06.학습예시",
+      "day": 6,
+      "category": "학습 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-23",
+      "title": "생성형 AI활용 추천자료",
+      "day": null,
+      "category": "참고 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-24",
+      "title": "GPTs - 유용한 챗봇",
+      "day": null,
+      "category": "AI 도구",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-25",
+      "title": "기타",
+      "day": null,
+      "category": "참고 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-26",
+      "title": "2026년 11월 2-1 AI업무자동화 과정 프로젝트 내역 입니다.",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-27",
+      "title": "01 · 정호영 - 개발 계획 시뮬레이터",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-28",
+      "title": "12 · 양재현 - 구매 단가 변동 분석",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-29",
+      "title": "02 · Wang Jeon - 엑셀·PDF 문서 정리",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-30",
+      "title": "03 · 조민규 - 경쟁사 제원 비교",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-31",
+      "title": "14 · 정유석 - 품질 관리 업무",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-32",
+      "title": "04 · 노현석 - 계측 데이터 처리·3D 그래프",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-33",
+      "title": "05 · Hyunwoo Park - 시험 데이터 비교 보고서",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-34",
+      "title": "11 · 정한결 - 제관 생산기술 지원",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-35",
+      "title": "06 · 이정우 - VPD 운영 업무 보조",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-36",
+      "title": "07 · 최창섭 - 물품설명서 작성 자동화",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-37",
+      "title": "08 · 최상원 - 구매가 절감 실적 집계",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-38",
+      "title": "09 · 차준근 - 통신 프로토콜 16진수 해석기",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-39",
+      "title": "13 · 원광재 - 열유동 해석 업무 자동화",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    },
+    {
+      "id": "section-40",
+      "title": "10 · 김수준 - 주간업무보고 자동 생성",
+      "day": null,
+      "category": "프로젝트 자료",
+      "sourceUrl": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32"
+    }
+  ],
+  "quickLinks": [
+    {
+      "label": "Padlet 원문",
+      "description": "전체 게시물과 첨부 자료 보기",
+      "url": "https://padlet.com/dreamitbiz/ai-2-https-padlet-com-dreamitbiz-build02-s0244frqwtwl5k2agd32",
+      "kind": "source"
+    },
+    {
+      "label": "프로젝트 총괄",
+      "description": "14개 프로젝트 공개 페이지 모음",
+      "url": "https://aebonlee.github.io/build-2611-00/",
+      "kind": "projects"
+    },
+    {
+      "label": "결과물 공유 폴더",
+      "description": "기획서·중간 결과물·최종 결과물 관리",
+      "url": "https://drive.google.com/drive/folders/1zVa0GsBfoYDr1RlC1fxAtu3t1ihPe7a0?usp=sharing",
+      "kind": "drive"
+    },
+    {
+      "label": "사전 역량평가",
+      "description": "학습관리 사이트에서 평가 응시",
+      "url": "https://edu.kocema.com/main/index.jsp",
+      "kind": "assessment"
+    },
+    {
+      "label": "교육 학습 사이트",
+      "description": "과정에서 안내한 학습 페이지",
+      "url": "https://build-data.jobability.co.kr/#/",
+      "kind": "learning"
+    },
+    {
+      "label": "대시보드 예제 소스",
+      "description": "수업에서 공유한 hd-06 GitHub 저장소",
+      "url": "https://github.com/aebonlee/hd-06",
+      "kind": "code"
+    }
+  ]
+}
